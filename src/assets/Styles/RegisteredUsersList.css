@@ -1,0 +1,57 @@
+button{
+  margin-left: 10px;
+    background-color: #f9f9f9;
+}
+
+li{
+    list-style: none;
+}
+h2{
+  text-align: center;
+}
+.myUsers{
+  display: flex;
+    width: 100%;
+}
+.myUsers span:first-child{
+  width: 50%;
+}
+.myUsers span{
+  width: 50%;
+}
+.myUsers a{
+  width: 25%;
+  margin-left: 15px;
+}
+.registered-users {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registered-users  ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .registered-users   li {
+      margin: 5px 0;
+      cursor: pointer;
+    }
+  
+    .registered-users   li:hover {
+      text-decoration: underline;
+    }
+
+    .registered-users h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    ul {
+      padding: 0px;
+    }
+  }
